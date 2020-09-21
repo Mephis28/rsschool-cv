@@ -1,11 +1,11 @@
 @font-face {
   font-family: Roboto; /* Гарнитура шрифта */
-  src: url(./src/files/fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+  src: url(assets/fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
   font-family: Roboto-Regular; /* Гарнитура шрифта */
-  src: url(./src/files/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+  src: url(assets/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
 #main {
@@ -30,7 +30,7 @@
   height: 744px;
   left: 0px;
   top: 0px;
-  background-image: url(./src/files/images/bg-image.png);
+  background-image: url(assets/images/bg-image.png);
 }
 
 .firstSceen header {
@@ -282,7 +282,7 @@
   height: 582px;
   left: 924px;
   top: 120px;
-  background-image: url(./src/files/images/content-image-1.png);
+  background-image: url(assets/images/content-image-1.png);
 }
 
 .secondSceen .contentBlock {
@@ -772,7 +772,7 @@
   height: 524px;
   left: 0px;
   top: 2932px;
-  background-image: url(./src/files/images/pexels-christina-morillo.png);
+  background-image: url(assets/images/pexels-christina-morillo.png);
 }
 
 .fifthSceen .form {
