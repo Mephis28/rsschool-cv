@@ -1,0 +1,1171 @@
+@font-face {
+  font-family: Roboto; /* Гарнитура шрифта */
+  src: url(./src/files/fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Roboto-Regular; /* Гарнитура шрифта */
+  src: url(./src/files/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#app {
+  position: relative;
+  width: 1600px;
+  height: 4105px;
+
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.firstSceen {
+  position: absolute;
+  width: 1600px;
+  height: 744px;
+  left: 0px;
+  top: 0px;
+  background-image: url(./src/files/images/bg-image.png);
+}
+
+.firstSceen header {
+  position: absolute;
+  height: 95px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.firstSceen header nav a {
+  text-decoration: none;
+}
+
+.firstSceen header nav a:hover {
+  background: #00AFDB;
+}
+
+.firstSceen .activeMenuItem {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 38px;
+  height: 21px;
+  left: calc(50% - 38px/2 - 279px);
+  top: 38px;
+}
+
+.firstSceen .about {
+  position: absolute;
+  width: 38px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.firstSceen .underline {
+  position: absolute;
+  width: 38px;
+  height: 0px;
+  left: 0px;
+  top: 21px;
+
+  border: 1px solid #ffffff;
+}
+
+.firstSceen .syllabus {
+  position: absolute;
+  width: 53px;
+  height: 20px;
+  left: 625px;
+  top: 38px;
+
+  /* body-14-reg */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.firstSceen .logo {
+  position: absolute;
+  width: 44px;
+  height: 45px;
+  left: 778px;
+  top: 25px;
+}
+
+.firstSceen header nav a img {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+}
+
+.firstSceen .projects {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  left: 923px;
+  top: 38px;
+
+  /* body-14-reg */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.firstSceen .faq {
+  position: absolute;
+  width: 26px;
+  height: 20px;
+  left: 1058px;
+  top: 38px;
+
+  /* body-14-reg */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.firstSceen .logotip {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 730px;
+  height: 75px;
+  left: calc(50% - 730px/2);
+  top: calc(50% - 75px/2 - 104.5px);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.firstSceen .text {
+  position: absolute;
+  width: 504px;
+  height: 50px;
+  left: calc(50% - 504px/2);
+  top: calc(50% - 50px/2 - 20px);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.firstSceen button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 47px;
+
+  position: absolute;
+  width: 184px;
+  height: 46px;
+  left: calc(50% - 184px/2);
+  top: calc(50% - 46px/2 + 59px);
+
+  background: #00AFDB;
+
+  border: none;
+}
+
+.firstSceen button div {
+  position: static;
+  width: 90px;
+  height: 16px;
+  left: calc(50% - 90px/2);
+  top: calc(50% - 16px/2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.firstSceen footer {
+  position: absolute;
+  width: 170px;
+  height: 20px;
+  left: calc(50% - 170px / 2);
+  bottom: 90px;
+}
+
+.secondSceen {
+  position: absolute;
+  width: 1600px;
+  height: 842px;
+  left: 0px;
+  top: 744px;
+
+  background: #ffffff;
+}
+
+.secondSceen .contentImage {
+  position: absolute;
+  width: 407px;
+  height: 582px;
+  left: 924px;
+  top: 120px;
+  background-image: url(./src/files/images/content-image-1.png);
+}
+
+.secondSceen .contentBlock {
+  position: absolute;
+  width: 407px;
+  height: 233px;
+  left: 269px;
+  top: 295px;
+}
+
+.secondSceen .contentBlock h1 {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 370px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+
+  /* h2-24-bold */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.secondSceen .contentBlock .text {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 405px;
+  height: 80px;
+  left: 0px;
+  top: 77px;
+
+  /* body-14-reg */
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  /* or 20px */
+
+  color: #4E4E4E;
+
+  letter-spacing: 0.09px;
+}
+
+.secondSceen .contentBlock button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 47px;
+
+  position: absolute;
+  width: 184px;
+  height: 46px;
+  left: 0px;
+  top: 187px;
+
+  background: #00afdb;
+  border: none;
+}
+
+.secondSceen .contentBlock button:hover {
+  background: black;
+}
+
+.secondSceen .contentBlock button div {
+  /* get started */
+  position: static;
+  width: 90px;
+  height: 16px;
+  left: calc(50% - 90px / 2);
+  top: calc(50% - 16px / 2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.thirdSceen {
+  position: absolute;
+  width: 1600px;
+  height: 504px;
+  left: 0px;
+  top: 1586px;
+
+  background: #f5f6f7;
+}
+
+.thirdSceen .userCard {
+  /* user-card */
+  position: absolute;
+  width: 298px;
+  height: 175px;
+  left: 269px;
+  top: 155px;
+}
+
+.thirdSceen .userpicWrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 127px;
+  top: 0px;
+}
+
+.thirdSceen .userpicWrapper img {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+
+  background: transparent;
+}
+
+.thirdSceen .userCard h1 {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 165px;
+  height: 20px;
+  left: calc(50% - 160px/2);
+  top: 65px;
+
+  /* h3-16-upper-bold */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+
+  color: #373737;
+
+  opacity: 80%;
+}
+
+.thirdSceen .text {
+  position: absolute;
+  width: 298px;
+  height: 80px;
+  left: calc(50% - 298px/2);
+  top: 95px;
+
+  /* body-14-reg */
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  /* or 20px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #4E4E4E;
+  /*letter-spacing: 0.1px;*/
+}
+
+.thirdSceen .sliderNavItems {
+  position: absolute;
+  width: 83px;
+  height: 18px;
+  right: 269px;
+  top: 82px;
+}
+
+.thirdSceen .arrowLeft {
+  position: absolute;
+  width: 9px;
+  height: 14px;
+  left: 0px;
+  top: 2px;
+}
+
+.thirdSceen .arrowLeft img:hover {
+  background: black;
+}
+
+.thirdSceen .arrowLeft img {
+  position: absolute;
+  width: 5.66px;
+  height: 11.31px;
+  left: 2px;
+  top: 1.34px;
+
+  box-sizing: border-box;
+}
+
+.thirdSceen .arrowRight {
+  position: absolute;
+  width: 9px;
+  height: 14px;
+  left: 76px;
+  top: 2px;
+}
+
+.thirdSceen .arrowRight img {
+  position: absolute;
+  width: 5.66px;
+  height: 11.31px;
+  left: 1.34px;
+  top: 1.34px;
+
+  box-sizing: border-box;
+}
+
+.thirdSceen .arrowRight img:hover {
+  background: black;
+}
+
+.thirdSceen .pagination {
+  position: absolute;
+  width: 37px;
+  height: 18px;
+  left: 23px;
+  top: 0px;
+}
+
+.thirdSceen .number1 {
+  position: absolute;
+  width: 11px;
+  height: 18px;
+  left: calc(50% - 11px / 2 - 13px);
+  top: calc(50% - 18px / 2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #373737;
+}
+
+.thirdSceen .dividerIcon {
+  position: absolute;
+  width: 7px;
+  height: 14px;
+  left: 15px;
+  top: 2px;
+}
+
+.thirdSceen .dividerIcon img {
+  position: absolute;
+  width: 6.71px;
+  height: 13.9px;
+  left: calc(50% - 6.71px / 2 - 0.14px);
+  top: calc(50% - 13.9px / 2 - 0.05px);
+}
+
+.thirdSceen .number5 {
+  position: absolute;
+  width: 11px;
+  height: 18px;
+  left: calc(50% - 11px / 2 + 13px);
+  top: calc(50% - 18px / 2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+  display: flex;
+  align-items: center;
+
+  color: #373737;
+}
+
+.thirdSceen .sliderItems {
+  position: absolute;
+  width: 894px;
+  height: 244px;
+  left: 706px;
+  top: 120px;
+  /* overflow-x: scroll; */
+}
+
+.thirdSceen .sliderItems .sliderItem {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 0px;
+  top: 0px;
+}
+
+.thirdSceen .sliderItems .sliderItem img {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 0px;
+  top: 0px;
+}
+
+.thirdSceen .sliderItems .sliderItem1 {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 437px;
+  top: 0px;
+}
+
+.thirdSceen .sliderItems .sliderItem1 img {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 0px;
+  top: 0px;
+}
+
+.thirdSceen .sliderItems .sliderItem2 {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 874px;
+  top: 0px;
+}
+
+.thirdSceen .sliderItems .sliderItem2 img {
+  position: absolute;
+  width: 407px;
+  height: 244px;
+  left: 0px;
+  top: 0px;
+  clip: rect(0px 20px 244px 0px);
+}
+
+.forthSceen {
+  position: absolute;
+  width: 1600px;
+  height: 842px;
+  left: 0px;
+  top: 2090px;
+
+  background: #ffffff;
+}
+
+.forthSceen .contentImage {
+  position: absolute;
+  width: 407px;
+  height: 582px;
+  left: 269px;
+  top: 120px;
+}
+
+.forthSceen .contentBlock {
+  position: absolute;
+  width: 407px;
+  height: 184px;
+  left: 815px;
+  top: 319px;
+}
+
+.forthSceen .contentBlock h1 {
+  margin: 0px;
+  padding: 0px;
+
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+
+  /* h2-24-bold */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.forthSceen .contentBlock p {
+  margin: 0px;
+  padding: 0px;
+
+  position: absolute;
+  width: 410px;
+  height: 60px;
+  left: 0px;
+  top: 48px;
+
+  /* body-14-reg */
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  /* or 20px */
+
+  color: #4e4e4e;
+
+  letter-spacing: 0.11px;
+}
+
+.forthSceen .contentBlock button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 47px;
+
+  position: absolute;
+  width: 180px;
+  height: 46px;
+  left: 0px;
+  top: 138px;
+
+  background: #00afdb;
+  border: none;
+}
+
+.forthSceen .contentBlock button:hover {
+  background: black;
+}
+
+.forthSceen .contentBlock button div {
+  position: static;
+  width: 86px;
+  height: 16px;
+  left: calc(50% - 86px / 2);
+  top: calc(50% - 16px / 2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.fifthSceen {
+  position: absolute;
+  width: 1600px;
+  height: 524px;
+  left: 0px;
+  top: 2932px;
+  background-image: url(./src/files/images/pexels-christina-morillo.png);
+}
+
+.fifthSceen .form {
+  position: absolute;
+  width: 406px;
+  height: 104px;
+  left: 597px;
+  top: 200px;
+}
+
+.fifthSceen .form h1 {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 380px;
+  height: 28px;
+  left: 13px;
+  top: 0px;
+
+  /* h2-24-bold */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.fifthSceen .input {
+  position: absolute;
+  width: 406px;
+  height: 46px;
+  left: 0px;
+  top: 42px;
+}
+
+.fifthSceen .formField {
+  position: absolute;
+  width: 340px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+}
+
+.fifthSceen .formField .rectangle {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 340px;
+  height: 46px;
+  left: 0px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 0px;
+  border: none;
+}
+
+.fifthSceen .emailText {
+  position: absolute;
+  width: 39px;
+  height: 20px;
+  left: 24px;
+  top: 15px;
+
+  /* body-14-reg */
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #373737;
+
+  opacity: 0.5;
+}
+
+.fifthSceen .form .checkIcon {
+  position: absolute;
+  width: 66px;
+  height: 46px;
+  left: 340px;
+  top: 0px;
+
+  background: #00afdb;
+  border-radius: 0px;
+  border: none;
+}
+
+.fifthSceen .form .checkIcon img {
+  position: absolute;
+  width: 16.52px;
+  height: 13.22px;
+  left: calc(50% - 16.52px / 2);
+  top: calc(50% - 13.22px / 2);
+}
+
+.sixSceen {
+  position: absolute;
+  width: 1600px;
+  height: 464px;
+  left: 0px;
+  top: 3456px;
+}
+
+.sixSceen h1 {
+  margin: 0px;
+  padding: 0px;
+
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  left: 675px;
+  top: 120px;
+
+  /* h2-24-bold */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.sixSceen .text {
+  margin: 0px;
+  padding: 0px;
+
+  position: absolute;
+  width: 480px;
+  height: 40px;
+  left: 560px;
+  top: 168px;
+
+  /* body-14-reg */
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145%;
+  /* or 20px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #4e4e4e;
+}
+
+.sixSceen .appleStore {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 186px;
+  height: 46px;
+  left: 599px;
+  top: 238px;
+}
+
+.sixSceen .appleStore img:hover {
+  cursor: pointer;
+}
+
+.sixSceen .appleStore .formField {
+  position: static;
+  width: 127px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  background: #00AFDB;
+  border-radius: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.sixSceen .appleStore .formField:hover {
+  background: black;
+}
+
+.sixSceen .appleStore .formField .text {
+  position: relative;
+  width: 91px;
+  height: 16px;
+  left: calc(50% - 91px/2);
+  top: calc(50% - 16px/2);
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.sixSceen .playMarket {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 186px;
+  height: 46px;
+  left: 815px;
+  top: 238px;
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.sixSceen .playMarket img:hover {
+  cursor: pointer;
+}
+
+.sixSceen .playMarket .formField {
+  position: static;
+  width: 127px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  background: #00AFDB;
+  border-radius: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+ }
+
+.sixSceen .playMarket .formField:hover {
+  background: black;
+}
+
+.sixSceen .playMarket .formField .text {
+  position: relative;
+  width: 94px;
+  height: 16px;
+  left: calc(50% - 91px/2);
+  top: calc(50% - 16px/2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 185px;
+  left: 0px;
+  top: 3920px;
+
+  background: #000000;
+}
+
+.footer .nav {
+  position: absolute;
+  width: 236px;
+  height: 20px;
+  left: 160px;
+  top: 73px;
+}
+.footer .nav div:hover {
+  cursor: pointer;
+}
+
+.footer .nav .credits {
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  left: 0px;
+  top: 2px;
+
+  /* body-14-reg */
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.footer .nav .separator1 {
+  position: absolute;
+  width: 8px;
+  height: 0px;
+  left: 61px;
+  top: 11px;
+
+  border: 1px solid #4E4E4E;
+  transform: rotate(-90deg);
+}
+
+.footer .nav .privacy {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  left: 85px;
+  top: 2px;
+
+  /* body-14-reg */
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #FFFFFF;
+}
+
+.footer .nav .separator2 {
+  position: absolute;
+  width: 8px;
+  height: 0px;
+  left: 147px;
+  top: 11px;
+
+  border: 1px solid #4E4E4E;
+  transform: rotate(-90deg);
+}
+
+.footer .nav .outTeams {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 171px;
+  top: 2px;
+
+  /* body-14-reg */
+
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #FFFFFF;
+}
+
+.footer .logo {
+  position: absolute;
+  width: 44px;
+  height: 45px;
+  left: 778px;
+  top: 60px;
+}
+
+.footer .copyright {
+  position: absolute;
+  width: 170px;
+  height: 20px;
+  left: 1270px;
+  top: 73px;
+}
